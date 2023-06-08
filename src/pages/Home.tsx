@@ -20,6 +20,9 @@ const Home = () => {
         <Box cursor="pointer" onClick={() => navigate('/home/profile')}>
           Go Profile Page
         </Box>
+        <Box cursor="pointer" onClick={() => navigate('/home/media')}>
+          Go Media Page
+        </Box>
       </Flex>
       <Outlet />
     </Flex>

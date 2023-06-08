@@ -5,6 +5,7 @@ const Home = lazy(() => import('@/pages/Home'))
 const About = lazy(() => import('@/pages/About'))
 const Profile = lazy(() => import('@/pages/Profile'))
 const NotFound = lazy(() => import('@/pages/NotFound'))
+const Media = lazy(() => import('@/pages/Media'))
 
 const routes = [
   {
@@ -22,6 +23,10 @@ const routes = [
       {
         path: 'profile',
         element: <Profile />
+      },
+      {
+        path: 'media',
+        element: <Media />
       }
     ]
   },
